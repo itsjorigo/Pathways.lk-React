@@ -28,6 +28,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
+  background-color: rgb(236, 234, 234);
 }
 .navbar-menu-container {
   display: none;
@@ -83,12 +84,27 @@ nav {
   justify-content: center;
   align-items: flex-start;
 }
+
+.home-buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto
+   auto auto auto auto;
+}
+
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
   /* line-height: 5rem; */
   max-width: 600px;
 }
+
+.work-heading{
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #4c4c4c;
+  /* line-height: 5rem; */
+  max-width: 600px;
+}
+
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
@@ -97,7 +113,7 @@ nav {
 }
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: rgb(169, 219, 255);
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -420,6 +436,48 @@ nav {
     max-width: 95vw;
   }
 }
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.form-buttons button {
+  margin-right: 10px;
+}
+
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container {

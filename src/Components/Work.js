@@ -7,29 +7,54 @@ const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      title: "Engineering",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
     },
     {
       image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Business Studies",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
     },
     {
       image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      title: "Medicine",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+    },
+    {
+      image: DeliveryMeals,
+      title: "Languages",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+    },
+    {
+      image: DeliveryMeals,
+      title: "Art",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+    },
+    {
+      image: DeliveryMeals,
+      title: "Architecture",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+    },
+    {
+      image: DeliveryMeals,
+      title: "Law",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+    },
+    {
+      image: DeliveryMeals,
+      title: "Information Technology",
+      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
-        <p className="primary-text">
+        <p className="primary-subheading">Roadmaps</p>
+        <h1 className="work-heading">"Empower Your Journey: Choose the Perfect Pathway for Your Dreams"</h1>
+        {/* <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p>
+        </p> */}
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (

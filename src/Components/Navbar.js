@@ -48,12 +48,12 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
+        <a href="">Roadmaps</a>
+        <a href="">Rankings</a>
+        <a href="">About Us</a>
+        {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
-        </a>
+        </a> */}
         <button className="primary-button">Bookings Now</button>
       </div>
       <div className="navbar-menu-container">
