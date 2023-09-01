@@ -40,15 +40,17 @@ const Home = () => {
         <div className="survey-section-image-container">
         </div>
         <div className="survey-section-text-container">
-          <h1 className="survey-heading">
-            Free Guidance to achieve your goals
-          </h1>
-          <p className="survey-text">
-            Ready to discover your career pathways? Longing to pursue a hobby
-            professionally? At Pathways.lk, we guide students and professionals
-            to unlock their passions through a trailored guidance. Ready to
-            embark on a fulfilling journey?
-          </p>
+          <div className="survey-heading">
+            <h2>Free Guidance to achieve your goals</h2>
+          </div>
+          <div className="survey-text">
+            <p>
+              Ready to discover your career pathways? Longing to pursue a hobby
+              professionally? At Pathways.lk, we guide students and professionals
+              to unlock their passions through a trailored guidance. Ready to
+              embark on a fulfilling journey?
+            </p>
+          </div>
           <div className="survey-buttons-container">
             <button className="survey-button">Take Our Survey</button>
           </div>

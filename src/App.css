@@ -199,10 +199,11 @@ nav {
 }
 .survey-section-text-container {
   flex: 1;
-  justify-content: center;
+  justify-content: right;
   display: flex;
   flex-direction: column;
   padding: 10px 50px;
+  text-align: right;
 }
 .survey-subheading {
   font-weight: 700;
@@ -213,15 +214,17 @@ nav {
 .survey-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
+  line-height: 7rem;
   max-width: 600px;
+  /* float: right; */
 }
 
 .survey-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
   color: #6a6a6a;
-  margin: 1.5rem 0rem;
+  /* margin: 1.5rem 0rem; */
+  float: right;
 }
 .survey-buttons-container {
   margin-top: 2rem;
