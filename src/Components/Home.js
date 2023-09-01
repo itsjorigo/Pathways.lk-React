@@ -1,6 +1,6 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+import BannerImage from "../Assets/growth 2.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -13,10 +13,10 @@ const Home = () => {
           {/* <img src={BannerBackground} alt="" /> */}
         </div>
         <div className="home-text-section">
-          <h1 className="primary-heading">
+          <h1 className="primary-heading-1">
             Discover Your Way: Pathways to Your Dream Career
           </h1>
-          <p className="primary-text">Your Highest Education Qualification</p>
+          <p className="primary-text-1">Your Highest Education Qualification</p>
           <div className="home-buttons">
             <button className="secondary-button">Foundation </button>
             <button className="secondary-button">Ordinary Level </button>
@@ -33,18 +33,26 @@ const Home = () => {
           </div>
         </div>
         <div className="home-image-section">
-          {/* <img src={BannerImage} alt="" /> */}
+          <img src={BannerImage} alt="" />
         </div>
       </div>
-      <div className="about-section-text-container">
-        <h1 className="primary-heading">Free Guidance to achieve your goals</h1>
-        <p className="primary-text">
-          Ready to discover your career pathways? Longing to pursue a hobby
-          professionally? At Pathways.lk, we guide students and professionals to
-          unlock their passions through a trailored guidance. Ready to embark on
-          a fulfilling journey?
-        </p>
-        <button className="primary-button">Take Our Survey </button>
+      <div className="survey-section-container">
+        <div className="survey-section-image-container">
+        </div>
+        <div className="survey-section-text-container">
+          <h1 className="survey-heading">
+            Free Guidance to achieve your goals
+          </h1>
+          <p className="survey-text">
+            Ready to discover your career pathways? Longing to pursue a hobby
+            professionally? At Pathways.lk, we guide students and professionals
+            to unlock their passions through a trailored guidance. Ready to
+            embark on a fulfilling journey?
+          </p>
+          <div className="survey-buttons-container">
+            <button className="survey-button">Take Our Survey</button>
+          </div>
+        </div>
       </div>
     </div>
   );
