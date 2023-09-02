@@ -1,47 +1,52 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import Engineering from "../Assets/Eng_img.jpg";
+import Business_Studies from "../Assets/BS_img.jpg";
+import Medicine from "../Assets/Medicine_img.jpg";
+import Languages from "../Assets/Lang_img.png";
+import Art from "../Assets/Art_img.jpg";
+import Architecture from "../Assets/Architecture_img.jpg";
+import Law from "../Assets/Law_img.jpg";
+import Information_Technology from "../Assets/IT_img.jpg";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
+      image: Engineering,
       title: "Engineering",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
     },
     {
-      image: ChooseMeals,
+      image: Business_Studies,
       title: "Business Studies",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
     },
     {
-      image: DeliveryMeals,
+      image: Medicine,
       title: "Medicine",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
-      image: DeliveryMeals,
+      image: Languages,
       title: "Languages",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
-      image: DeliveryMeals,
+      image: Art,
       title: "Art",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
-      image: DeliveryMeals,
+      image: Architecture,
       title: "Architecture",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
-      image: DeliveryMeals,
+      image: Law,
       title: "Law",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
-      image: DeliveryMeals,
+      image: Information_Technology,
       title: "Information Technology",
       // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
