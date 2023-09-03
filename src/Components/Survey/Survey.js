@@ -1,9 +1,9 @@
 import React from "react";
-import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+import AboutBackground from "../../Assets/about-background.png";
+import AboutBackgroundImage from "../../Assets/about-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
-const About = () => {
+const Survey = () => {
   return (
     <div className="about-section-container">
       <div className="about-background-image-container">
@@ -36,4 +36,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Survey;
