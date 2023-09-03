@@ -36,7 +36,7 @@ const Home = () => {
           <img src={BannerImage} alt="" />
         </div>
       </div>
-      <div className="survey-section-container">
+      {/* <div className="survey-section-container">
         <div className="survey-section-image-container">
         </div>
         <div className="survey-section-text-container">
@@ -55,7 +55,7 @@ const Home = () => {
             <button className="survey-button">Take Our Survey</button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

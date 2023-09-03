@@ -6,11 +6,13 @@ import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Form from "./Components/Form";
+import Survey from "./Components/Survey";
 
 function App() {
   return (
     <div className="App">
       <Home />
+      <Survey />
       <Work />
       <Work />
       <About />

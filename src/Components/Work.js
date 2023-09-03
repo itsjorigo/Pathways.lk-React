@@ -1,10 +1,10 @@
 import React from "react";
 import Engineering from "../Assets/Eng_img.jpg";
 import Business_Studies from "../Assets/BS_img.jpg";
-import Medicine from "../Assets/Medicine_img.jpg";
+import Medicine from "../Assets/Medicine.png";
 import Languages from "../Assets/Lang_img.png";
 import Art from "../Assets/Art_img.jpg";
-import Architecture from "../Assets/Architecture_img.jpg";
+import Architecture from "../Assets/Architecture.png";
 import Law from "../Assets/Law_img.jpg";
 import Information_Technology from "../Assets/IT_img.jpg";
 
