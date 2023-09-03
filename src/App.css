@@ -28,7 +28,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 80px;
+  /* min-height: 80px; */
   background-color: rgb(236, 234, 234);
 }
 .home-container{
@@ -136,7 +136,7 @@ nav {
   max-width: 600px;
 }
 
-.work-heading {
+.Secondary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
   /* line-height: 5rem; */
@@ -180,82 +180,10 @@ nav {
   background-color: #e48f0f;
 }
 
-/* survey */
 
-.survey-section-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.survey-background-image-container {
-  position: absolute;
-  left: -150px;
-  z-index: -2;
-}
-.survey-section-image-container {
-  flex: 0.9;
-  margin-right: 1rem;
-}
-.survey-section-text-container {
-  flex: 1;
-  justify-content: right;
-  display: flex;
-  flex-direction: column;
-  padding: 10px 50px;
-  text-align: right;
-}
-.survey-subheading {
-  font-weight: 700;
-  color: #fe9e0d;
-  font-size: 1.15rem;
-}
-
-.survey-heading {
-  font-size: clamp(2rem, 5vw, 3rem);
-  color: #4c4c4c;
-  line-height: 7rem;
-  max-width: 600px;
-  /* float: right; */
-}
-
-.survey-text {
-  font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 500px;
-  color: #6a6a6a;
-  /* margin: 1.5rem 0rem; */
-  float: right;
-}
-.survey-buttons-container {
-  margin-top: 2rem;
-  display: flex;
-}
-.survey-button {
-  padding: 1rem 2.5rem;
-  background-color: rgb(101, 188, 250);
-  outline: none;
-  border: none;
-  border-radius: 5rem;
-  font-size: 1.1rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: white;
-  transition: 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 5px;
-}
-.survey-button svg {
-  margin-left: 0.75rem;
-  font-size: 1.5rem;
-}
-.survey-button:hover {
-  background-color: #e48f0f;
-}
 
 .about-section-container {
-  margin-top: 20rem;
+  margin-top: 3rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -318,7 +246,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 6rem 0rem;
+  margin: 3rem 0rem;
 }
 .contact-form-container {
   background-color: white;
@@ -403,23 +331,23 @@ nav {
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
 }
-.work-section-wrapper {
-  margin-top: 15rem;
+.Roadmaps-section-wrapper {
+  margin-top: 3rem;
 }
-.work-section-top p {
+.Roadmaps-section-top p {
   text-align: center;
   max-width: 600px !important;
 }
-.work-section-top h1 {
+.Roadmaps-section-top h1 {
   max-width: 1000px !important;
 }
-.work-section-top {
+.Roadmaps-section-top {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.work-section-info {
+.Roadmaps-section-info {
   width: 290px;
   /* min-height: 350px; */
   background-color: white;
@@ -433,10 +361,10 @@ nav {
   color: #505050;
   margin: 1rem 2rem;
 }
-.work-section-info h2 {
+.Roadmaps-section-info h2 {
   margin: 1rem 0rem;
 }
-.work-section-bottom {
+.Roadmaps-section-bottom {
   /* margin: 5rem; */
   display: flex;
   justify-content: center;
@@ -447,7 +375,7 @@ nav {
   margin: 30px;
   padding: 10px;
 }
-.work-section-info p {
+.Roadmaps-section-info p {
   flex: 1;
   display: flex;
   align-items: center;
@@ -513,7 +441,7 @@ nav {
     cursor: pointer;
   }
   .about-section-container {
-    margin-top: 5rem !important;
+    /* margin-top: 5rem !important; */
   }
   .about-buttons-container {
     justify-content: center;
@@ -533,10 +461,10 @@ nav {
   .about-section-image-container {
     margin-right: 0rem !important;
   }
-  .work-section-wrapper {
+  .Roadmaps-section-wrapper {
     margin-top: 5rem !important;
   }
-  .work-section-bottom {
+  .Roadmaps-section-bottom {
     margin-top: 1rem !important;
   }
   .contact-form-container {

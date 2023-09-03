@@ -1,7 +1,8 @@
 import "./App.css";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
-import Work from "./Components/Work/Work";
+import Roadmaps from "./Components/Roadmaps/Roadmaps";
+import Rankings from "./Components/Rankings/Rankings";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -13,8 +14,8 @@ function App() {
     <div className="App">
       <Home />
       <Survey />
-      <Work />
-      <Work />
+      <Roadmaps />
+      <Rankings />
       <About />
       <Testimonial />
       <Contact />

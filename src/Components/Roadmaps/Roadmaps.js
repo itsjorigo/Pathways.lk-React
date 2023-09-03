@@ -8,62 +8,54 @@ import Architecture from "../../Assets/Architecture.png";
 import Law from "../../Assets/Law_img.jpg";
 import Information_Technology from "../../Assets/IT_img.jpg";
 
-const Work = () => {
-  const workInfoData = [
+const Roadmaps = () => {
+  const RoadmapsData = [
     {
       image: Engineering,
       title: "Engineering",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
     },
     {
       image: Business_Studies,
       title: "Business Studies",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
     },
     {
       image: Medicine,
       title: "Medicine",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
       image: Languages,
       title: "Languages",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
       image: Art,
       title: "Art",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
       image: Architecture,
       title: "Architecture",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
       image: Law,
       title: "Law",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
     {
       image: Information_Technology,
       title: "Information Technology",
-      // text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
     },
   ];
   return (
-    <div className="work-section-wrapper">
-      <div className="work-section-top">
+    <div className="Roadmaps-section-wrapper">
+      <div className="Roadmaps-section-top">
         <p className="primary-subheading">Roadmaps</p>
-        <h1 className="work-heading">"Empower Your Journey: Choose the Perfect Pathway for Your Dreams"</h1>
+        <h1 className="Secondary-heading">"Empower Your Journey: Choose the Perfect Pathway for Your Dreams"</h1>
         {/* <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p> */}
       </div>
-      <div className="work-section-bottom">
-        {workInfoData.map((data) => (
-          <div className="work-section-info" key={data.title}>
+      <div className="Roadmaps-section-bottom">
+        {RoadmapsData.map((data) => (
+          <div className="Roadmaps-section-info" key={data.title}>
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
             </div>
@@ -76,4 +68,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Roadmaps;
