@@ -1,6 +1,6 @@
 import React from "react";
-import ProfilePic from "../../Assets/john-doe-image.png";
-import { AiFillStar } from "react-icons/ai";
+import Joseph from "../../Assets/Joseph.png";
+import Nishadi from "../../Assets/Nishadi.png"
 import s from "./AboutUs.css";
 
 const AboutUs = () => {
@@ -25,32 +25,18 @@ const AboutUs = () => {
             </div>
         
       
-      <div className="testimonial-section-bottom">
-      <h2>Joseph Rodrigo</h2>
-        <img src={ProfilePic} alt="" />
-        <div className="testimonials-stars-container">
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-        </div>
+      <div className="person-1">
+        <h2>Joseph Rodrigo</h2>
+          <div className="person-1-img"><img src={Joseph} alt="" /></div>
+          <div className="socialmedia-person-1"></div>
+          </div>
+      <div className="person-2">
         <h2>Nishadi Perera</h2>
-        <img src={ProfilePic} alt="" />
-        {/* <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p> */}
-        <div className="testimonials-stars-container">
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
-          <AiFillStar />
+        <div className="person-2-img"><img src={Nishadi} alt="" /></div>
+        <div className="socialmedia-person-2"></div>
         </div>
-        {/* <h2>John Doe</h2> */}
       </div>
-      </div>
+      <p>About Pathways.lk</p>
     </div>
     </div>
   );

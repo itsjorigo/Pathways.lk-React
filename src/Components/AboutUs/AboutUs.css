@@ -2,16 +2,75 @@
     /* margin: 5rem; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     background-color:rgb(213, 223, 258);
     border-radius: 25px;
     margin: 30px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .Team-message{
     background-color: rgb(247, 247, 247);
-    justify-content: left;
-    
+    width: 50%;
+    height: 250px;
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 20px;
+    margin-right: auto;
+    }
+
+.person-1 {
+    width: 30%;
+    height: 100px; 
+    background-color: #ffffff; 
+    margin-left: auto; 
+    margin-top: 5px; 
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: aliceblue;
+}
+
+.person-1-img {
+    position: relative;
+    bottom: 130px; /* Position it at the top */
+    left: 220px; /* Position it at the right */
+    width: 50%; /* Set the width to 50% to make it half out of the box */
+    height: 20px; /* Maintain aspect ratio */
+    z-index: 1;
+}
+
+.person-2{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 100px; 
+    margin-left: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.person-2-img{
+    position:relative;
+    bottom: 130px;
+    left: 220px;
+    width: 50%;
+    height: auto; 
+    z-index: 1;
+}
+
+.socialmedia-person-1{
+    background-color: rgb(150, 165, 188);
+    width: 220px; 
+    height: 35px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.socialmedia-person-2{
+    background-color: rgb(150, 165, 188);
+    width: 220px; 
+    height: 35px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
 }
