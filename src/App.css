@@ -317,12 +317,19 @@ nav {
 .Roadmaps-section-wrapper {
   margin-top: 4rem;
 }
+.Roadmaps-section-top{
+
+  height: 250px;
+}
 .Roadmaps-section-top p {
   text-align: center;
   max-width: 600px !important;
+
 }
 .Roadmaps-section-top h1 {
-  max-width: 1000px !important;
+  max-width: 1300px !important;
+
+  margin: 20px;
 }
 .Roadmaps-section-top {
   display: flex;
