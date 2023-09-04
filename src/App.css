@@ -86,7 +86,7 @@ nav {
 }
 .home-image-section {
   padding: 40px 10px;
-  max-width: 680px;
+  max-width: 500px;
   flex: 1;
 }
 .home-text-section {
@@ -125,21 +125,21 @@ nav {
 .primary-heading-1 {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
+  line-height: 5rem;
   max-width: 600px;
 }
 
 .primary-heading-2 {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
+  line-height: 5rem;
   max-width: 600px;
 }
 
 .Secondary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
+  line-height: 5rem;
   /* max-width: 1000px; */
 }
 
@@ -208,8 +208,7 @@ nav {
   padding: 10px 50px;
   border: 1px red solid;
 }
-.about-section-text-container-2 {
-}
+
 .primary-subheading {
   font-weight: 700;
   color: #fe9e0d;
@@ -332,7 +331,7 @@ nav {
   margin-top: 1.5rem;
 }
 .Roadmaps-section-wrapper {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 .Roadmaps-section-top p {
   text-align: center;

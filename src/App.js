@@ -3,7 +3,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Roadmaps from "./Components/Roadmaps/Roadmaps";
 import Rankings from "./Components/Rankings/Rankings";
-import Testimonial from "./Components/Testimonial/Testimonial";
+import AboutUs from "./Components/AboutUs/AboutUs";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Form from "./Components/Form/Form";
@@ -16,8 +16,8 @@ function App() {
       <Survey />
       <Roadmaps />
       <Rankings />
+      <AboutUs />
       <About />
-      <Testimonial />
       <Contact />
       <Form/>
       <Footer />
