@@ -1,6 +1,5 @@
 import "./App.css";
 import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
 import Roadmaps from "./Components/Roadmaps/Roadmaps";
 import Rankings from "./Components/Rankings/Rankings";
 import AboutUs from "./Components/AboutUs/AboutUs";
@@ -17,7 +16,6 @@ function App() {
       <Roadmaps />
       <Rankings />
       <AboutUs />
-      <About />
       <Contact />
       <Form/>
       <Footer />
