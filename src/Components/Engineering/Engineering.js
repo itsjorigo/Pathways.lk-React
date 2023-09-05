@@ -1,24 +1,52 @@
-import React from 'react';
-import s from "./Engineering.css"
-
+import React from "react";
+import s from "./Engineering.module.css";
 
 const GridPage = () => {
   return (
-    <div className="grid-container">
+    <div className={s.grid_container}>
       {/* 16 grid items */}
-      <div className="grid-item">1</div>
-      <div className="grid-item">2</div>
-      <div className="grid-item">3</div>
-      <div className="grid-item">4</div>
-      <div className="grid-item">5</div>
-      <div className="grid-item">6</div>
-      <div className="grid-item">7</div>
-      <div className="grid-item">8</div>
-      {/* Add more grid items */}
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
+      <div className={s.grid_item}>
+        <div className={s.inner_grid}></div>
+        <div className={s.inner_grid}></div>
+      </div>
     </div>
   );
-}
+};
 
 export default GridPage;
-
-  
