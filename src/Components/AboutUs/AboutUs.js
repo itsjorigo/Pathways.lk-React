@@ -1,6 +1,10 @@
 import React from "react";
 import Joseph from "../../Assets/Joseph.png";
 import Nishadi from "../../Assets/Nishadi.png";
+import facebook from "../../Assets/facebook.png";
+import instagram from "../../Assets/instagram.png";
+import linkedin from "../../Assets/linkedin.png";
+import github from "../../Assets/github.png";
 import s from "./about.module.css";
 
 const AboutUs = () => {
@@ -31,16 +35,25 @@ const AboutUs = () => {
             <div className={s.person_1_img}>
               <img src={Joseph} alt="" />
             </div>
-            <div className={s.socialmedia_person_1}></div>
+            <div className={s.socialmedia_person_1}>
+              <div className={s.facebook}><img src={facebook} alt=""/></div>
+              <div className={s.github}><img src={github} alt=""/></div>
+              <div className={s.linkedin}><img src={linkedin} alt=""/></div>
+              <div className={s.instagram}><img src={instagram} alt=""/></div>
+            </div>
           </div>
           <div className={s.person}>
              <h2>Nishadi Perera</h2>
             <div className={s.person_2_img}>
               <img src={Nishadi} alt="" />
             </div>
-            <div className={s.socialmedia_person_2}></div>
+            <div className={s.socialmedia_person_2}>
+              <div className={s.facebook}><img src={facebook} alt=""/></div>
+              <div className={s.github}><img src={github} alt=""/></div>
+              <div className={s.linkedin}><img src={linkedin} alt=""/></div>
+              <div className={s.instagram}><img src={instagram} alt=""/></div>
+            </div>
           </div>
-
         </div>
       </div>
     </div>

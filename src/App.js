@@ -7,6 +7,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Form from "./Components/Form/Form";
 import Survey from "./Components/Survey/Survey";
+import GridPage from "./Components/Engineering/Engineering";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Roadmaps />
       <Rankings />
       <AboutUs />
-      <Contact />
+      <GridPage />
       <Form/>
       <Footer />
     </div>

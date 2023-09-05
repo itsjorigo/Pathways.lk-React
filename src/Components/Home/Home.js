@@ -1,5 +1,5 @@
 import React from "react";
-import BannerBackground from "../../Assets/home-banner-background.png";
+import BannerBackground from "../../Assets/TopVector.png";
 import BannerImage from "../../Assets/growth 2.png";
 import Navbar from "../Navbar/Navbar";
 import { FiArrowRight } from "react-icons/fi";
@@ -10,8 +10,8 @@ const Home = () => {
       <Navbar />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
-          {/* <img src={BannerBackground} alt="" /> */}
-        </div>
+          <img src={BannerBackground} alt="" />
+            </div>
         <div className="home-text-section">
           <h1 className="primary-heading-1">
             Discover Your Way: Pathways to Your Dream Career
