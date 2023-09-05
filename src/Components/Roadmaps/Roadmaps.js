@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 import Engineering from "../../Assets/Eng_img.jpg";
 import Business_Studies from "../../Assets/BS_img.jpg";
@@ -65,11 +66,11 @@ const Roadmaps = () => {
       <div className="Roadmaps-section-bottom">
         {RoadmapsData.map((data) => (
           <div className="Roadmaps-section-info" key={data.title}>
-            <Link to={data.link}>
+            {/* <Link to={data.link}> */}
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
             </div>
-            </Link>
+            {/* </Link> */}
             <h2>{data.title}</h2>
             {/* <p>{data.text}</p> */}
           </div>
