@@ -19,9 +19,9 @@ import Survey from "./Components/Survey/Survey";
 
 function App() {
   return (
-    // <Router>
+    <Router>
       <div className="App">
-        
+          
           {/* <Route exact path="/" component={Home} />
           <Route path="/Roadmaps" component={Roadmaps} />
           <Route path="/Engineering" component={Engineering} />
@@ -40,8 +40,9 @@ function App() {
         <AboutUs />
         <Form/>
         <Footer />
+        <Engineering />
       </div>
-    // </Router>
+    </Router>
   );
 }
 

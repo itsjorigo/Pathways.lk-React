@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Engineering from "../../Assets/Eng_img.jpg";
 import Business_Studies from "../../Assets/BS_img.jpg";
@@ -53,6 +53,9 @@ const Roadmaps = () => {
       link: "/InformationTechnology"
     },
   ];
+
+  const navigate = useNavigate();
+
   return (
     <div className="Roadmaps-section-wrapper">
       <div className="Roadmaps-section-top">
@@ -63,7 +66,7 @@ const Roadmaps = () => {
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p> */}
       </div>
-      <div className="Roadmaps-section-bottom">
+      <button onClick={() =>navigate("/Engineering")} className="Roadmaps-section-bottom">
         {RoadmapsData.map((data) => (
           <div className="Roadmaps-section-info" key={data.title}>
             {/* <Link to={data.link}> */}
@@ -75,7 +78,7 @@ const Roadmaps = () => {
             {/* <p>{data.text}</p> */}
           </div>
         ))}
-      </div>
+      </button>
     </div>
   );
 };
