@@ -52,20 +52,26 @@ function App() {
       {
         path: "/",
         element: <Layout />,
-      //   children: [
-      //     {
-      //       path: "/",
-      //       // element: <Home />,
-      //     },
-      //     {
-      //       path: "/products",
-      //       element:   <Engineering /> ,
-      //     },
-      //     {
-      //       path: "/users",
-      //       // element: <Users />,
-      //     },
-      //   ],
+      },
+      {
+        path: "/engineering",
+        element: <Engineering />,
+      },
+      {
+        path: "/businessstudies",
+        element: <BusinessStudies />,
+      },
+      {
+        path: "/medicine",
+        element: <Medicine />,
+      },
+      {
+        path: "/engineering",
+        element: <Engineering />,
+      },
+      {
+        path: "/engineering",
+        element: <Engineering />,
       },
       {
         path: "/engineering",
