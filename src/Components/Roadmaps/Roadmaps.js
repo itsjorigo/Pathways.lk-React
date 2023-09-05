@@ -66,9 +66,9 @@ const Roadmaps = () => {
           elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p> */}
       </div>
-      <button onClick={() =>navigate("/Engineering")} className="Roadmaps-section-bottom">
+      <div   className="Roadmaps-section-bottom">
         {RoadmapsData.map((data) => (
-          <div className="Roadmaps-section-info" key={data.title}>
+          <div className="Roadmaps-section-info" onClick={() =>navigate(data.link)}  key={data.title}>
             {/* <Link to={data.link}> */}
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
@@ -78,7 +78,7 @@ const Roadmaps = () => {
             {/* <p>{data.text}</p> */}
           </div>
         ))}
-      </button>
+      </div>
     </div>
   );
 };
