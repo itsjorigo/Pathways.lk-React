@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Engineering.module.css";
 
-const GridPage = () => {
+const Engineering = () => {
   return (
     <div className={s.grid_container}>
       {/* 16 grid items */}
@@ -49,4 +49,4 @@ const GridPage = () => {
   );
 };
 
-export default GridPage;
+export default Engineering;

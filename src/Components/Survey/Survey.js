@@ -24,7 +24,8 @@ const Survey = () => {
             Ready to embark on a fulfilling journey?
           </p>
           <div className={s.survey_buttons_container}>
-            <button className={s.secondary_button}>Take Our Survey</button>
+            <button className={s.secondary_button}>
+            Take Our Survey</button>
           </div>
         </div>
       </div>
