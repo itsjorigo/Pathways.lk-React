@@ -2,14 +2,14 @@ import "./App.css";
 import { BrowserRouter as Router, Route,RouterProvider,createBrowserRouter, Outlet } from 'react-router-dom';
 import Home from "./Components/Home/Home";
 import Roadmaps from "./Components/Roadmaps/Roadmaps";
-import Engineering from './Components/Engineering/Engineering';
-import BusinessStudies from './Components/BusinessStudies/BusinessStudies';
-import Medicine from './Components/Medicine/Medicine';
-import Languages from './Components/Languages/Languages';
-import Art from './Components/Art/Art';
-import Architecture from './Components/Architecture/Architecture';
-import Law from './Components/Law/Law';
-import InformationTechnology from './Components/InformationTechnology/InformationTechnology';
+import Engineering from './Components/Subjects/Engineering/Engineering';
+import BusinessStudies from './Components/Subjects/BusinessStudies/BusinessStudies';
+import Medicine from './Components/Subjects/Medicine/Medicine';
+import Languages from './Components/Subjects/Languages/Languages';
+import Art from './Components/Subjects/Art/Art';
+import Architecture from './Components/Subjects/Architecture/Architecture';
+import Law from './Components/Subjects/Law/Law';
+import InformationTechnology from './Components/Subjects/InformationTechnology/InformationTechnology';
 import Rankings from "./Components/Rankings/Rankings";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Footer from "./Components/Footer/Footer";
@@ -85,6 +85,10 @@ function App() {
         path: "/informationTechnology",
         element: <InformationTechnology />,
       },
+      // {
+      //   path: "https://www.sliit.lk/",
+      //   element: "https://www.sliit.lk/",
+      // },
       
     ]);
     return <RouterProvider router={router} />;
