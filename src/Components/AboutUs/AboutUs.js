@@ -95,7 +95,7 @@ const AboutUs = () => {
               </a>
 
               <a
-                href="https://github.com/itsjorigo"
+                href="https://github.com/nishadi220"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,7 +105,7 @@ const AboutUs = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/joseph-rodrigo-381864214/"
+                href="https://www.linkedin.com/in/nishadi-perera-b3b732252/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -115,7 +115,7 @@ const AboutUs = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/itsjorigo/"
+                href="https://www.instagram.com/_nishadii._/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
