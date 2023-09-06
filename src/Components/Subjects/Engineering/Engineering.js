@@ -6,47 +6,132 @@ const Engineering = () => {
   return (
     <div>
       <Navbar />
-      <div className={s.grid_container}>
-        {/* 16 grid items */}
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
+
+      <div className={s.path_grid}>
+        <p>Software Engineering Pathways</p>
+        <div className={s.grid_container}>
+          {/* 16 grid items */}
+        
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            {/* <div className={s.inner_grid}></div> */}
+          </div>
+          {/* <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div> */}
         </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
+      </div>
+
+      <div className={s.path_grid}>
+        <p>Mechanical Engineering Pathways</p>
+        <div className={s.grid_container}>
+          {/* 16 grid items */}
+        
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
         </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
+      </div>
+
+      <div className={s.path_grid}>
+        <p>Civil Engineering Pathways</p>
+        <div className={s.grid_container}>
+          {/* 16 grid items */}
+        
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
         </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
-        </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
-        </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
-        </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
-        </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
-        </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
-        </div>
-        <div className={s.grid_item}>
-          <div className={s.inner_grid}></div>
-          <div className={s.inner_grid}></div>
+      </div>
+
+      <div className={s.path_grid}>
+        <p>Chemical Engineering Pathways</p>
+        <div className={s.grid_container}>
+          {/* 16 grid items */}
+        
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
+          <div className={s.grid_item}>
+            <div className={s.inner_grid}></div>
+            <div className={s.inner_grid}></div>
+          </div>
         </div>
       </div>
     </div>
