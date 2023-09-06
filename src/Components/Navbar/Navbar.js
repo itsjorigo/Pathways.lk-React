@@ -47,10 +47,10 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">Roadmaps</a>
-        <a href="">Rankings</a>
-        <a href="">About Us</a>
+        <a href="#home_section">Home</a>
+        <a href="#roadmaps_section">Roadmaps</a>
+        <a href="#rankings_section">Rankings</a>
+        <a href="#about_us_section">About Us</a>
         {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a> */}

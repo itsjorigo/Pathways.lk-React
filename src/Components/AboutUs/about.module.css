@@ -90,6 +90,34 @@
 }
 
 .socialmedia_person_1 {
+  /* background-color: rgb(150, 165, 188); */
+  /* width: 220px; */
+  /* height: 35px; */
+  padding-top: 5px;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialmedia_person_2 {
+  /* background-color: rgb(150, 165, 188); */
+  /* width: 220px; */
+  /* height: 35px; */
+  padding-top: 5px;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialmedia_person_3 {
   background-color: rgb(150, 165, 188);
   width: 220px;
   height: 35px;
@@ -97,10 +125,16 @@
   border-radius: 10px;
 }
 
-.socialmedia_person_2 {
-  background-color: rgb(150, 165, 188);
-  width: 220px;
-  height: 35px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
+.facebook{
+  background-color: black;
 }
+
+.github{  background-color: black;
+}
+
+.linkedin{  background-color: black;
+}
+
+.instagram{  background-color: black;
+}
+

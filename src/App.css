@@ -30,6 +30,8 @@ nav {
   justify-content: space-between;
   /* min-height: 80px; */
   background-color: rgb(236, 234, 234);
+  /* position: fixed; */
+  /* z-index: 99999; */
 }
 .home-container{
   /* border: 2px rgb(86, 153, 86) solid; */

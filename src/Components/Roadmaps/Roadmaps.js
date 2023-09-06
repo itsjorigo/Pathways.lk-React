@@ -57,7 +57,7 @@ const Roadmaps = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="Roadmaps-section-wrapper">
+    <div id="roadmaps_section" className="Roadmaps-section-wrapper">
       <div className="Roadmaps-section-top">
         <p className="primary-subheading">Roadmaps</p>
         <h1 className="Secondary-heading">"Empower Your Journey: Choose the Perfect Pathway for Your Dreams"</h1>

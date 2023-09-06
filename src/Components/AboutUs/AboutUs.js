@@ -9,7 +9,7 @@ import s from "./about.module.css";
 
 const AboutUs = () => {
   return (
-    <div className={s.Team_message_section}>
+    <div id="about_us_section" className={s.Team_message_section}>
       <div className={s.Team_primary_subheading}>
         <p>About Us</p>
       </div>
@@ -36,22 +36,93 @@ const AboutUs = () => {
               <img src={Joseph} alt="" />
             </div>
             <div className={s.socialmedia_person_1}>
-              <div className={s.facebook}><img src={facebook} alt=""/></div>
-              <div className={s.github}><img src={github} alt=""/></div>
-              <div className={s.linkedin}><img src={linkedin} alt=""/></div>
-              <div className={s.instagram}><img src={instagram} alt=""/></div>
+            <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.facebook}>
+                  <img src={facebook} alt="" />
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/itsjorigo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.github}>
+                  <img src={github} alt="" />
+                </button>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/joseph-rodrigo-381864214/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.linkedin}>
+                  <img src={linkedin} alt="" />
+                </button>
+              </a>
+
+              <a
+                href="https://www.instagram.com/itsjorigo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.instagram}>
+                  <img src={instagram} alt="" />
+                </button>
+              </a>
             </div>
           </div>
           <div className={s.person}>
-             <h2>Nishadi Perera</h2>
+            <h2>Nishadi Perera</h2>
             <div className={s.person_2_img}>
               <img src={Nishadi} alt="" />
             </div>
             <div className={s.socialmedia_person_2}>
-              <div className={s.facebook}><img src={facebook} alt=""/></div>
-              <div className={s.github}><img src={github} alt=""/></div>
-              <div className={s.linkedin}><img src={linkedin} alt=""/></div>
-              <div className={s.instagram}><img src={instagram} alt=""/></div>
+              {/* <button className={s.facebook}><img src={facebook} alt=""/></button> */}
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.facebook}>
+                  <img src={facebook} alt="" />
+                </button>
+              </a>
+
+              <a
+                href="https://github.com/itsjorigo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.github}>
+                  <img src={github} alt="" />
+                </button>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/joseph-rodrigo-381864214/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.linkedin}>
+                  <img src={linkedin} alt="" />
+                </button>
+              </a>
+
+              <a
+                href="https://www.instagram.com/itsjorigo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={s.instagram}>
+                  <img src={instagram} alt="" />
+                </button>
+              </a>
             </div>
           </div>
         </div>

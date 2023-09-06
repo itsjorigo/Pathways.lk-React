@@ -66,16 +66,24 @@ function App() {
         element: <Medicine />,
       },
       {
-        path: "/engineering",
-        element: <Engineering />,
+        path: "/languages",
+        element: <Languages />,
       },
       {
-        path: "/engineering",
-        element: <Engineering />,
+        path: "/art",
+        element: <Art />,
       },
       {
-        path: "/engineering",
-        element: <Engineering />,
+        path: "/architecture",
+        element: <Architecture />,
+      },
+      {
+        path: "/law",
+        element: <Law />,
+      },
+      {
+        path: "/informationTechnology",
+        element: <InformationTechnology />,
       },
       
     ]);

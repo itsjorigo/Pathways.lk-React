@@ -36,9 +36,9 @@ const Rankings = () => {
     },
   ];
   return (
-    <div className="Roadmaps-section-wrapper">
+    <div id="rankings_section" className="Roadmaps-section-wrapper">
       <div className="Roadmaps-section-top">
-        <p className="primary-subheading">Roadmaps</p>
+        <p className="primary-subheading">Rankings</p>
         <h1 className="Secondary-heading">"Discover the Top-Tiered Universities of Sri Lanka's Ranking System"</h1>
         {/* <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
