@@ -83,6 +83,15 @@ const Degree = () => {
               </div>
             </div>
             <div className={s.grid_item}>
+            <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={NIBM} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://www.nibm.lk/courses/degree/" target="_blank">
+                  Undergraduate Degree Courses
+                  </a>
+                </div>
+              </div>
               <div className={s.inner_grid}><div className={s.pic}>
                   <img src={ESOFT} alt="" />
                 </div>
@@ -92,7 +101,9 @@ const Degree = () => {
                   </a>
                 </div>
               </div>
-              <div className={s.inner_grid}><div className={s.pic}>
+            </div>
+            <div className={s.grid_item}>
+            <div className={s.inner_grid}><div className={s.pic}>
                   <img src={APIIT} alt="" />
                 </div>
                 <div className={s.title}>

@@ -24,20 +24,19 @@ const Doctral_Degree = () => {
                 </div>
                 <div className={s.title}>
                   <a
-                    href="https://sliitacademy.lk/academic-programs/foundation-certificate-in-information-technology/"
+                    href="https://www.sliit.lk/graduate-studies-research/programms/phd-programmes/"
                     target="_blank"
                   >
-                  Curtin university - SLIIT Academy Foundation Certificate in Information Technology</a>
+                  PhD Programme</a>
                 </div>
               </div>
               <div className={s.inner_grid}>
                 <div className={s.pic}>
-                  <img src={SLTC} alt="" />
+                  <img src={NSBM} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://sltc.ac.lk/courses/bsc-hons-in-software-engineering/" target="_blank">
-                    Bachelor of Software Engineering (Deakin University,
-                    Australia)
+                  <a href="https://www.nsbm.ac.lk/course/phd-in-management/" target="_blank">
+                  Doctoral Programme
                   </a>
                 </div>
               </div>
@@ -45,32 +44,11 @@ const Doctral_Degree = () => {
             <div className={s.grid_item}>
               <div className={s.inner_grid}>
               <div className={s.pic}>
-                  <img src={NSBM} alt="" />
+                  <img src={ESOFT} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.nsbm.ac.lk/course/bsc-hons-software-engineering/" target="_blank">
-                  BSc (Hons) IN Software Engineering
-                  Plymouth University – United Kingdom
-                  </a>
-                </div>
-              </div>
-              <div className={s.inner_grid}><div className={s.pic}>
-                <img src={IIT} alt="" />
-                </div>
-                <div className={s.title}>
-                  <a href="https://www.iit.ac.lk/course/beng-software-engineering/" target="_blank">
-                  BEng (Hons) Software Engineering - UGC Recognized
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className={s.grid_item}>
-              <div className={s.inner_grid}><div className={s.pic}>
-                  <img src={CINEC} alt="" />
-                </div>
-                <div className={s.title}>
-                  <a href="https://www.cinec.edu/courses/bsc-hons-in-software-engineering.html" target="_blank">
-                  BSc (Hons) in Software Engineering - Ministry of Education/ UGC Approved
+                  <a href="https://esoft.lk/" target="_blank">
+                  Doctoral Programmes
                   </a>
                 </div>
               </div>

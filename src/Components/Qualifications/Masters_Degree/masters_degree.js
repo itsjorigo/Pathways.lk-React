@@ -24,42 +24,39 @@ const Master_Degree = () => {
                 </div>
                 <div className={s.title}>
                   <a
-                    href="https://sliitacademy.lk/academic-programs/foundation-certificate-in-information-technology/"
+                    href="https://www.sliit.lk/graduate-studies-research/programms/mba-programmes/master-of-business-administration/"
                     target="_blank"
                   >
-                  Curtin university - SLIIT Academy Foundation Certificate in Information Technology</a>
+                  Masters Degree Programmes</a>
                 </div>
               </div>
               <div className={s.inner_grid}>
                 <div className={s.pic}>
-                  <img src={SLTC} alt="" />
+                  <img src={NSBM} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://sltc.ac.lk/courses/bsc-hons-in-software-engineering/" target="_blank">
-                    Bachelor of Software Engineering (Deakin University,
-                    Australia)
+                  <a href="https://www.nsbm.ac.lk/faculty-of-postgraduate-professional-advancement/" target="_blank">
+                  Masters Degree Programmes
                   </a>
                 </div>
               </div>
             </div>
             <div className={s.grid_item}>
-              <div className={s.inner_grid}>
-              <div className={s.pic}>
-                  <img src={NSBM} alt="" />
+            <div className={s.inner_grid}><div className={s.pic}>
+                <img src={IIT} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.nsbm.ac.lk/course/bsc-hons-software-engineering/" target="_blank">
-                  BSc (Hons) IN Software Engineering
-                  Plymouth University – United Kingdom
+                  <a href="https://www.iit.ac.lk/business/" target="_blank">
+                  Postgraduate Degree Programmes - Business School
                   </a>
                 </div>
               </div>
               <div className={s.inner_grid}><div className={s.pic}>
-                <img src={IIT} alt="" />
+                  <img src={IIT} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.iit.ac.lk/course/beng-software-engineering/" target="_blank">
-                  BEng (Hons) Software Engineering - UGC Recognized
+                  <a href="https://www.iit.ac.lk/computing/" target="_blank">
+                  Postgraduate Degree Programmes - School of Computing
                   </a>
                 </div>
               </div>
@@ -69,8 +66,37 @@ const Master_Degree = () => {
                   <img src={CINEC} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.cinec.edu/courses/bsc-hons-in-software-engineering.html" target="_blank">
-                  BSc (Hons) in Software Engineering - Ministry of Education/ UGC Approved
+                  <a href="https://www.cinec.edu/course-list/postgraduate.html" target="_blank">
+                  Postgraduate Degree Programmes
+                  </a>
+                </div>
+              </div>
+              <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={NIBM} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://www.nibm.lk/courses/mba/" target="_blank">
+                  Postgraduate Degree Programmes
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className={s.grid_item}>
+              <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={ESOFT} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://esoft.lk/" target="_blank">
+                  Postgraduate Degree Programmes
+                  </a>
+                </div>
+              </div>
+              <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={APIIT} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://apiit.lk/postgraduate/" target="_blank">
+                  Postgraduate Degree Programmes
                   </a>
                 </div>
               </div>
