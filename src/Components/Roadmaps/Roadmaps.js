@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Engineering from "../../Assets/Eng_img.jpg";
 import Business_Studies from "../../Assets/BS_img.jpg";
-import Medicine from "../../Assets/Medicine.png";
+import Biology from "../../Assets/Biology.png";
 import Languages from "../../Assets/Lang_img.png";
 import Art from "../../Assets/Art_img.jpg";
 import Architecture from "../../Assets/Architecture.png";
@@ -23,9 +23,9 @@ const Roadmaps = () => {
       link: "/BusinessStudies"
     },
     {
-      image: Medicine,
-      title: "Medicine",
-      link: "/Medicine"
+      image: Biology,
+      title: "Biology",
+      link: "/Biology"
     },
     {
       image: Languages,
