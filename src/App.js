@@ -16,6 +16,14 @@ import Footer from "./Components/Footer/Footer";
 import Form from "./Components/Form/Form";
 import Survey from "./Components/Survey/Survey";
 import Navbar from "./Components/Navbar/Navbar";
+import Foundation from "./Components/Qualifications/Foundation/foundation";
+import Olevel from "./Components/Qualifications/OLevel/olevel";
+import Alevel from "./Components/Qualifications/ALevel/alevel";
+import Diploma from "./Components/Qualifications/Diploma/diploma";
+import Higher_Diploma from "./Components/Qualifications/Higher_Diploma/higher_diploma";
+import Degree from "./Components/Qualifications/Degree/degree";
+import Master_Degree from "./Components/Qualifications/Masters_Degree/masters_degree";
+import Doctral_Degree from "./Components/Qualifications/Doctoral_Degree/doctoral_degree";
 // import GridPage from "./Components/Engineering/Engineering";
 
 {/* <Home />
@@ -41,11 +49,6 @@ function App() {
         <Form/>
         <Footer />
         {/* <Outlet/>  */}
-      
-          
-       
-         
-    
       </div>
     );
   };
@@ -87,10 +90,39 @@ function App() {
         path: "/informationTechnology",
         element: <InformationTechnology />,
       },
-      // {
-      //   path: "https://www.sliit.lk/",
-      //   element: "https://www.sliit.lk/",
-      // },
+      {
+        path: "/foundation",
+        element: <Foundation />,
+      },
+      {
+        path: "/olevel",
+        element: <Olevel />,
+      },
+      {
+        path: "/alevel",
+        element: <Alevel />,
+      },
+      {
+        path: "/diploma",
+        element: <Diploma />,
+      },
+      {
+        path: "/higher_diploma",
+        element: <Higher_Diploma />,
+      },
+      {
+        path: "/degree",
+        element: <Degree />,
+      },
+      {
+        path: "/master_degree",
+        element: <Master_Degree />,
+      },
+      {
+        path: "/doctral_degree",
+        element: <Doctral_Degree />,
+      },
+      
       
     ]);
     return <RouterProvider router={router} />;
