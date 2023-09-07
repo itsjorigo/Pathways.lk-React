@@ -4,7 +4,7 @@ import Home from "./Components/Home/Home";
 import Roadmaps from "./Components/Roadmaps/Roadmaps";
 import Engineering from './Components/Subjects/Engineering/Engineering';
 import BusinessStudies from './Components/Subjects/BusinessStudies/BusinessStudies';
-import Medicine from './Components/Subjects/Medicine/Medicine';
+import Biology from './Components/Subjects/Biology/Biology';
 import Languages from './Components/Subjects/Languages/Languages';
 import Art from './Components/Subjects/Art/Art';
 import Architecture from './Components/Subjects/Architecture/Architecture';
@@ -64,8 +64,8 @@ function App() {
         element: <BusinessStudies />,
       },
       {
-        path: "/medicine",
-        element: <Medicine />,
+        path: "/Biology",
+        element: <Biology />,
       },
       {
         path: "/languages",
