@@ -25,7 +25,8 @@ const Survey = () => {
           </p>
           <div className={s.survey_buttons_container}>
             <button className={s.secondary_button}>
-            Take Our Survey</button>
+            <a href="https://forms.gle/bS9SiFkV1WZJmZYz6" target="_blank">Take Our Survey</a>
+            </button>
           </div>
         </div>
       </div>

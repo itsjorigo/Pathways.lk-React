@@ -33,7 +33,7 @@ const Rankings = () => {
     },
     {
       image: NIBM,
-      link: "https://www.sliit.lk/"
+      link: "https://www.nibm.lk/"
     },
     {
       image: ESOFT,
@@ -59,10 +59,12 @@ const Rankings = () => {
       </div>
       <div className="Roadmaps-section-bottom">
         {RankingsData.map((data) => (
-          <div className="Roadmaps-section-info" onClick={() =>navigate(data.link)} key={data.title}>
+          <div className="Roadmaps-section-info" key={data.title}>
+            <a href={data.link} target="_blank">
             <div className="info-boxes-img-container">
               <img src={data.image} alt="" />
             </div>
+            </a>
             {/* <h2>{data.title}</h2>
             <p>{data.text}</p> */}
           </div>

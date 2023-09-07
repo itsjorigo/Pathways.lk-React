@@ -46,7 +46,6 @@ function App() {
         <Roadmaps />
         <Rankings />
         <AboutUs />
-        <Form/>
         <Footer />
         {/* <Outlet/>  */}
       </div>
