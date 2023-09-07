@@ -15,6 +15,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Footer from "./Components/Footer/Footer";
 import Form from "./Components/Form/Form";
 import Survey from "./Components/Survey/Survey";
+import Navbar from "./Components/Navbar/Navbar";
 // import GridPage from "./Components/Engineering/Engineering";
 
 {/* <Home />
@@ -31,6 +32,7 @@ function App() {
   const Layout = () => {
     return (
       <div className="App">
+        <Navbar/>
         <Home />
         <Survey />
         <Roadmaps />
