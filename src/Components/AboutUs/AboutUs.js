@@ -32,9 +32,9 @@ const AboutUs = () => {
         <div className={s.Team_person_card_container}>
           <div className={s.person}>
             <h2>Joseph Rodrigo</h2>
-            <div className={s.person_1_img}>
+            {/* <div className={s.person_1_img}>
               <img src={Joseph} alt="" />
-            </div>
+            </div> */}
             <div className={s.socialmedia_person_1}>
             <a
                 href="https://www.facebook.com"
@@ -79,9 +79,9 @@ const AboutUs = () => {
           </div>
           <div className={s.person}>
             <h2>Nishadi Perera</h2>
-            <div className={s.person_2_img}>
+            {/* <div className={s.person_2_img}>
               <img src={Nishadi} alt="" />
-            </div>
+            </div> */}
             <div className={s.socialmedia_person_2}>
               {/* <button className={s.facebook}><img src={facebook} alt=""/></button> */}
               <a

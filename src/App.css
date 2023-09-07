@@ -266,12 +266,13 @@ nav {
   padding: 0.5rem 1rem;
 }
 .footer-wrapper {
-  margin: 6rem 0rem;
+  margin: 20px;
   display: flex;
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
 }
 .footer-logo-container {
   max-width: 110px;
+  margin: 10px;
 }
 .footer-icons {
   margin-top: 2.5rem;
@@ -288,6 +289,7 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
 }
 .footer-section-columns {
   display: flex;
@@ -475,6 +477,8 @@ nav {
   }
   .footer-wrapper {
     flex-direction: column;
+    margin: 20px;
+
   }
   .footer-section-two {
     flex-direction: column;
