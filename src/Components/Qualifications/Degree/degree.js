@@ -24,10 +24,10 @@ const Degree = () => {
                 </div>
                 <div className={s.title}>
                   <a
-                    href="https://sliitacademy.lk/academic-programs/foundation-certificate-in-information-technology/"
+                    href="https://www.sliit.lk/humanities-sciences/programmes/undergraduate-degree-programs/"
                     target="_blank"
                   >
-                  Curtin university - SLIIT Academy Foundation Certificate in Information Technology</a>
+                  Undergraduate Degree Programmes </a>
                 </div>
               </div>
               <div className={s.inner_grid}>
@@ -35,9 +35,8 @@ const Degree = () => {
                   <img src={SLTC} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://sltc.ac.lk/courses/bsc-hons-in-software-engineering/" target="_blank">
-                    Bachelor of Software Engineering (Deakin University,
-                    Australia)
+                  <a href="https://sltc.ac.lk/" target="_blank">
+                  Undergraduate Degree Programmes
                   </a>
                 </div>
               </div>
@@ -48,9 +47,8 @@ const Degree = () => {
                   <img src={NSBM} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.nsbm.ac.lk/course/bsc-hons-software-engineering/" target="_blank">
-                  BSc (Hons) IN Software Engineering
-                  Plymouth University – United Kingdom
+                  <a href="https://www.nsbm.ac.lk/degree-programmes/" target="_blank">
+                  Undergraduate Degree Programmes
                   </a>
                 </div>
               </div>
@@ -58,19 +56,48 @@ const Degree = () => {
                 <img src={IIT} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.iit.ac.lk/course/beng-software-engineering/" target="_blank">
-                  BEng (Hons) Software Engineering - UGC Recognized
+                  <a href="https://www.iit.ac.lk/business/" target="_blank">
+                  Undergraduate Degree Programmes - Business School
                   </a>
                 </div>
               </div>
             </div>
             <div className={s.grid_item}>
               <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={IIT} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://www.iit.ac.lk/computing/" target="_blank">
+                  Undergraduate Degree Programmes - School of Computing
+                  </a>
+                </div>
+              </div>
+              <div className={s.inner_grid}><div className={s.pic}>
                   <img src={CINEC} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.cinec.edu/courses/bsc-hons-in-software-engineering.html" target="_blank">
-                  BSc (Hons) in Software Engineering - Ministry of Education/ UGC Approved
+                  <a href="https://www.cinec.edu/course-list/undergraduate.html" target="_blank">
+                  Undergraduate Degree Courses
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className={s.grid_item}>
+              <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={ESOFT} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://esoft.lk/" target="_blank">
+                  Undergraduate Degree Programmes
+                  </a>
+                </div>
+              </div>
+              <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={APIIT} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://apiit.lk/undergraduate/" target="_blank">
+                  Undergraduate Degree Courses
                   </a>
                 </div>
               </div>

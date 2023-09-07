@@ -8,7 +8,7 @@ import CINEC from "../../../Assets/CINEC.png";
 import NIBM from "../../../Assets/NIBM.png";
 import APIIT from "../../../Assets/APIIT.png";
 import ESOFT from "../../../Assets/ESOFT.png";
-import s from "./Foundation.module.css";
+import s from "./foundation.module.css";
 
 const Foundation = () => {
     return (
@@ -32,12 +32,11 @@ const Foundation = () => {
               </div>
               <div className={s.inner_grid}>
                 <div className={s.pic}>
-                  <img src={SLTC} alt="" />
+                  <img src={NSBM} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://sltc.ac.lk/courses/bsc-hons-in-software-engineering/" target="_blank">
-                    Bachelor of Software Engineering (Deakin University,
-                    Australia)
+                  <a href="https://www.nsbm.ac.lk/course/foundation-programme-for-bachelors-degree/" target="_blank">
+                  Foundation Programme for Bachelor’s Degree
                   </a>
                 </div>
               </div>
@@ -45,32 +44,51 @@ const Foundation = () => {
             <div className={s.grid_item}>
               <div className={s.inner_grid}>
               <div className={s.pic}>
-                  <img src={NSBM} alt="" />
+                  <img src={IIT} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.nsbm.ac.lk/course/bsc-hons-software-engineering/" target="_blank">
-                  BSc (Hons) IN Software Engineering
-                  Plymouth University – United Kingdom
+                  <a href="https://www.iit.ac.lk/foundation/" target="_blank">
+                  Foundation Certificate in Higher Education
                   </a>
                 </div>
               </div>
               <div className={s.inner_grid}><div className={s.pic}>
-                <img src={IIT} alt="" />
+                <img src={CINEC} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.iit.ac.lk/course/beng-software-engineering/" target="_blank">
-                  BEng (Hons) Software Engineering - UGC Recognized
+                  <a href="https://www.cinec.edu/courses/foundation-course-navigation.html" target="_blank">
+                  Foundation Course
                   </a>
                 </div>
               </div>
             </div>
             <div className={s.grid_item}>
               <div className={s.inner_grid}><div className={s.pic}>
-                  <img src={CINEC} alt="" />
+                  <img src={NIBM} alt="" />
                 </div>
                 <div className={s.title}>
-                  <a href="https://www.cinec.edu/courses/bsc-hons-in-software-engineering.html" target="_blank">
-                  BSc (Hons) in Software Engineering - Ministry of Education/ UGC Approved
+                  <a href="https://www.nibm.lk/courses/foundation-programmes/" target="_blank">
+                  Foundation Programme
+                  </a>
+                </div>
+              </div>
+              <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={ESOFT} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://esoft.lk/?s=FOUNDATION" target="_blank">
+                  Foundation Programme
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className={s.grid_item}>
+              <div className={s.inner_grid}><div className={s.pic}>
+                  <img src={APIIT} alt="" />
+                </div>
+                <div className={s.title}>
+                  <a href="https://apiit.lk/foundation/" target="_blank">
+                  Foundation Programmes
                   </a>
                 </div>
               </div>
