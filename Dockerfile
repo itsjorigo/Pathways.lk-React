@@ -1,5 +1,5 @@
-# Use the official Node.js 18 image as the base image
-FROM node:18
+# Use the official Node.js image as the base image
+FROM node:14
 
 # Set the working directory in the container
 WORKDIR /app
@@ -16,5 +16,11 @@ COPY . .
 # Build the React app
 RUN npm run build
 
+# Install a simple web server
+RUN npm install -g serve
+
+# Expose port 80
+EXPOSE 80
+
 # Specify the command to run when the container starts
-CMD [ "npm", "start" ]
+CMD ["serve", "-s", "build", "-l", "80"]
